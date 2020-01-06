@@ -3,9 +3,9 @@ set percent to word 6 of theList's item 2
 set charge to word 7 of theList's item 2
 
 if (charge = "charging") then
-	set iconC to "⚡️"
+	set iconC to "🔋"
 else
-	set iconC to ""
+	set iconC to "🔋"
 end if
 
 set remainingRaw to my split(theList's item 2, " ")
